@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8000/api/generator/cover-letter/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "job_description": "We are building a next-generation e-commerce platform.\nOur platform is API-driven, and as a frontend engineer,\nyou will consume Laravel APIs to deliver fast, reliable,\nand user-friendly customer experiences.\nRole: Frontend Engineer (Next.js/React)\nLocation: Fully Remote (Nigeria/Africa time zones)\nType: Full-time",
+  "resume_text": "Detail-oriented Chemical Engineering graduate with\na strong analytical foundation and a growing passion\nfor software development.\n..."
+}
