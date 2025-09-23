@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://ai-cover-generator-frontend.vercel.app/']
+ALLOWED_HOSTS = ['ai-cover-generator-frontend.vercel.app']
 
 
 # Application definition
@@ -133,5 +133,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FRONTEND_URL = 'https://ai-cover-generator-frontend.vercel.app/'
-ORS_ALLOWED_ORIGINS = ["https://ai-cover-generator-frontend.vercel.app/"]
+CORS_ALLOWED_ORIGINS = ["https://ai-cover-generator-frontend.vercel.app/"]
 # CORS_ALLOW_ALL_ORIGINS = True # For development purposes
